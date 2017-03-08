@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout00"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="center">
+    
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content">
+    	<TextView 
+    	    android:layout_width="50dp"
+    	    android:layout_height="wrap_content"
+    	    android:text="Port"/>
+    	<Spinner
+    	    android:id="@+id/Spinner1"
+    	    android:entries="@array/port"
+	        android:layout_width="100dp"
+	    	android:layout_height="wrap_content"
+	    	android:gravity="right"/>   	    
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content">
+    	<TextView 
+    	    android:layout_width="50dp"
+    	    android:layout_height="wrap_content"
+    	    android:text="Baud"/>
+    	<Spinner
+    	    android:id="@+id/Spinner2"
+    	    android:entries="@array/Baud"
+	        android:layout_width="100dp"
+	    	android:layout_height="wrap_content"
+	    	android:gravity="right"/>   	    
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content">
+    	<TextView 
+    	    android:layout_width="50dp"
+    	    android:layout_height="wrap_content"
+    	    android:text="Data"/>
+    	<Spinner
+    	    android:id="@+id/Spinner3"
+    	    android:entries="@array/Data"
+	        android:layout_width="100dp"
+	    	android:layout_height="wrap_content"
+	    	android:gravity="right"/>   	    
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content">
+    	<TextView 
+    	    android:layout_width="50dp"
+    	    android:layout_height="wrap_content"
+    	    android:text="Parity"/>
+    	<Spinner
+    	    android:id="@+id/Spinner4"
+    	    android:entries="@array/Parity"
+	        android:layout_width="100dp"
+	    	android:layout_height="wrap_content"
+	    	android:gravity="right"/>   	    
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content">
+    	<TextView 
+    	    android:layout_width="50dp"
+    	    android:layout_height="wrap_content"
+    	    android:text="Stop"/>
+    	<Spinner
+    	    android:id="@+id/Spinner5"
+    	    android:entries="@array/Stop"
+	        android:layout_width="100dp"
+	    	android:layout_height="wrap_content"
+	    	android:gravity="right"/>   	    
+    </TableRow>
+
+    <Button
+        android:id="@+id/LL00_button1"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="打开串口" />
+    
+</LinearLayout>

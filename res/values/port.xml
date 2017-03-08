@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="port">
+        <item >com1</item>
+        <item >com2</item>
+        <item >com3</item>
+        <item >com4</item>
+        <item >com5</item>
+        <item >com6</item>
+        <item >com7</item>
+        <item >com8</item>
+        <item >com9</item>
+    </string-array>
+
+</resources>
